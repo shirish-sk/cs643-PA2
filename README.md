@@ -23,4 +23,6 @@ All the model parquet and meatdata file structure and the content is transferred
 All the application required files + trained ML Model are copied and extracted into the Docker and a docker container is created using the buidl descriptor "Dockerfile"   
 Finally the wine quality prediction are obtained for the test dataset provided within the container 
 
-Github code repo: 
+# Github code repo: https://github.com/shirish-sk/cs643-PA2
+# Docker Hub repo for docker container: ssk45/winequalityservice:latest  (docker pull ssk45/winequalityservice:latest)
+# S3 bucket: s3://sskemrs3bucket
